@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.r4v3zn.burp</groupId>
-    <artifactId>fofa</artifactId>
-    <version>1.0.0.Beta</version>
+    <artifactId>burp-fofa</artifactId>
+    <version>1.0.1.Beta</version>
     <build>
         <plugins>
             <plugin>
