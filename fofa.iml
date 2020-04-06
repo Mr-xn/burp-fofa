@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_6">
     <output url="file://$MODULE_DIR$/target/classes" />
     <output-test url="file://$MODULE_DIR$/target/test-classes" />
@@ -9,12 +9,13 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.10" level="project" />
+    <orderEntry type="library" name="Maven: com.jfoenix:jfoenix:8.0.8" level="project" />
     <orderEntry type="library" name="Maven: net.portswigger.burp.extender:burp-extender-api:2.1" level="project" />
     <orderEntry type="library" name="Maven: com.r4v3zn.fofa:fofa-core:1.0.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.9" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.10.1" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.10" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.10" level="project" />
-    <orderEntry type="library" name="Maven: com.jfoenix:jfoenix:8.0.8" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />
   </component>
 </module>
