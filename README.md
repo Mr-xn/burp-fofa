@@ -5,7 +5,7 @@
 
 ## 版本说明
 
-下载时优先安装`RELEASE`版本，如么有`RELEASE`，考虑下载`Beat`版本。
+下载时优先安装`RELEASE`版本，如没有`RELEASE`，考虑下载`Beat`版本。
 
 版本号：1.0.0.Beta，1.0.0.RELEASE
 
