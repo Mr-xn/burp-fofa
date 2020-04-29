@@ -22,7 +22,7 @@
 
     <groupId>com.r4v3zn.burp</groupId>
     <artifactId>burp-fofa</artifactId>
-    <version>1.0.3.Beta</version>
+    <version>1.0.4.Beta</version>
     <build>
         <plugins>
             <plugin>
