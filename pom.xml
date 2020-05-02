@@ -22,7 +22,7 @@
 
     <groupId>com.r4v3zn.burp</groupId>
     <artifactId>burp-fofa</artifactId>
-    <version>1.0.4.Beta</version>
+    <version>1.0.5.Beta</version>
     <build>
         <plugins>
             <plugin>
@@ -47,7 +47,7 @@
         <dependency>
             <groupId>com.r4v3zn.fofa</groupId>
             <artifactId>fofa-core</artifactId>
-            <version>1.0.1.RELEASE</version>
+            <version>1.0.2.RELEASE</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
