@@ -15,18 +15,32 @@
  */
 
 package fofa.ui;
+
 import javax.swing.*;
 
 /**
- * Title: BurpFofaTabbed
- * Desc: BurpFofaTabbed
- * Date:2020-01-05 20:27
+ * Title: BurpFofa
+ * Desc: TODO
+ * Date:2020/5/4 22:18
  * Email:woo0nise@gmail.com
  * Company:www.j2ee.app
  *
  * @author R4v3zn
  * @version 1.0.0
  */
-public class BurpFofaTabbed extends JTabbedPane {
+public class BurpFofa {
 
+    private JPanel panel1;
+    private JTextField textFofaQuery;
+    private JTable tableResult;
+
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("BurpFofa");
+        BurpFofa burpFofa = new BurpFofa();
+        burpFofa.tableResult = new JTable(null, new String[]{"ip", "host", "port","protocol", "title", "country", "region", "city"});
+        frame.setContentPane(burpFofa.panel1);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.pack();
+        frame.setVisible(true);
+    }
 }
