@@ -17,15 +17,9 @@
 package fofa;
 
 import burp.*;
-import fofa.ui.BurpFofaTabbed;
 import lombok.Data;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
-import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
 
 import static common.constants.BurpConstants.EXTENSION_NAME;
 
@@ -72,10 +66,10 @@ public class BurpFofa implements IBurpExtender,ITab {
             @Override
             public void run() {
                 jPanelMain = new JPanel();
-                BurpFofaTabbed tabbed  = new BurpFofaTabbed();
-                tabbed.add("001",createTextPanel("001"));
-                tabbed.add("002",new JButton("老司机，点点我"));
-                tabbed.setSelectedIndex(1);
+//                BurpFofaTabbed tabbed  = new BurpFofaTabbed();
+//                tabbed.add("001",createTextPanel("001"));
+//                tabbed.add("002",new JButton("老司机，点点我"));
+//                tabbed.setSelectedIndex(1);
                 /*
                 JButton jButton = new JButton("老司机,快点我!");
                 jButton.addMouseListener(new MouseAdapter() {
@@ -85,7 +79,7 @@ public class BurpFofa implements IBurpExtender,ITab {
                     }
                 });*/
                 // 将按钮添加到 主面板 jPanelMain 中.
-                jPanelMain.add(tabbed);
+//                jPanelMain.add(tabbed);
                 // 设置自定义组件并添加标签
                 // BurpFofa.callbacks.customizeUiComponent(jPanelMain);
                 callbacks.addSuiteTab(BurpFofa.this);
