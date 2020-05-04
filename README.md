@@ -2,12 +2,13 @@
 
 基于BurpSuite的一款FOFA Pro 插件。
 
+![](./images/1.png)
 
 ## 版本说明
 
 下载时优先安装`RELEASE`版本，如没有`RELEASE`，请考虑下载`Beat`版本。
 
-版本号：1.0.0.Beta，1.0.0.RELEASE。
+版本号：1.0.5.Beta，1.0.0.RELEASE。
 
 第一个数字：主版本，有可能进行大的架构调整，各大版本之间并不一定兼容。
 
