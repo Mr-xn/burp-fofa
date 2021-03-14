@@ -1,0 +1,28 @@
+name: maven build and push
+
+# author Mrxn
+# github: github.com/Mr-xn
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up JDK 1.8
+      uses: actions/setup-java@v1
+      with:
+        java-version: 1.8
+    - name: Build with Maven
+      run: 
+        mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+    - name: Commit and push build jar (if changed)
+      run: |-
+        git init
+        git config --global user.email "readme-bot@example.com"
+        git config --global user.name "README-bot"
+        git add *.jar
+        git commit -m "Updated by Github Robot" || exit 0
+        git push
